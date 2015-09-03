@@ -41,10 +41,15 @@ a {
 ul.nav-menu {
     font-family: sans-serif;
     text-align: center;
+    font-weight: bold;
 }
 
 li.nav-menu {
     display: inline;
+}
+
+.no-bold {
+    font-weight: normal;
 }
 
 .divider {
