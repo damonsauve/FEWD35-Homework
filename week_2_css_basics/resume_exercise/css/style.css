@@ -48,7 +48,7 @@ li.nav-menu {
 }
 
 .divider {
-    border: #767676 1px solid;
+    border-top: #767676 1px solid;
     margin-top: 35px;
     margin-bottom: 35px;
 }
