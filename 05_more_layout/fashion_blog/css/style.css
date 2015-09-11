@@ -2,7 +2,7 @@
 body {
     background-color: #fff;
     color: #515151;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', 'Alegreya Sans', sans-serif;
     font-size: 18px;
     font-weight: 300;
 }
@@ -76,7 +76,7 @@ h1 {
     font-size: 55px;
     font-weight: 300;
     color: #DC3E38;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', 'Alegreya Sans', sans-serif;
     margin: 0;
     padding: 0 0 10px 0;
     display: inline-block;
@@ -111,7 +111,7 @@ img {
     font-weight: 300;
     color: #D0D0D0;
     padding: 0 0 10px 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', 'Alegreya Sans', sans-serif;
 }
 
 .post-title {
@@ -134,7 +134,8 @@ img {
 .firstcharacter {
     float: left;
     color: #DDDDDD;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', 'Alegreya Sans', sans-serif;
+    /*font-family: arial;*/
     font-size: 100px;
     font-style: normal;
     font-weight: 300;
@@ -187,6 +188,7 @@ div.ad-box {
     padding: 40px;
     border: #333 1 px solid;
     background-color: #CCCCCC;
+    /*font-family: Georgia, Times, "Times New Roman", serif;*/
     font-family: 'Slabo 27px', serif;
     font-size: 75px;
     font-weight: bold;
