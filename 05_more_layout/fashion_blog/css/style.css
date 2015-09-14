@@ -193,7 +193,17 @@ div.ad-box {
     font-weight: bold;
     margin: 10px 8px 10px 7px;
     padding: 0 0 0 0;
-    text-align: center;
+    position: relative;
+}
+
+.ad-text {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
 }
 
 footer {
