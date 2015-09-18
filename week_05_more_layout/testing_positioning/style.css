@@ -1,0 +1,113 @@
+
+.container {
+    width: 500px;
+    height: 400px;
+    border: #000000 1px solid;
+    position: relative;
+}
+/*
+.box {
+    width: 200px;
+    height: 200px;
+    border: #000000 1px solid;
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.box-2 {
+    width: 200px;
+    height: 200px;
+    border:red 1px solid;
+    background-color: red;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}
+*/
+
+.absolute {
+    width: 100px;
+    height: 100px;
+    border: #000000 1px solid;
+    position: absolute;
+}
+
+.absolute-1 {
+    top: 0;
+    left: 0;
+}
+
+.absolute-2 {
+    top: 0;
+    right: 0;
+}
+
+.absolute-3 {
+    bottom: 0;
+    left: 0;
+}
+
+.absolute-4 {
+    bottom: 0;
+    right: 0;
+}
+
+.absolute-5 {
+    /*top: 35.714285714285715%;
+    right: 37.5%;
+    */
+
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+
+}
+
+.skinny-header, .skinny-footer {
+    width: 600px;
+    height: 40px;
+    border:black 1px solid;
+    margin: auto;
+}
+
+.skinny {
+    width: 300px;
+    height: 200px;
+    border:black 1px solid;
+    margin: auto;
+}
+
+
+.mirror {
+    width: 400px;
+    height: 300px;
+    border:black 1px solid;
+    margin: 0 auto;
+}
+
+.mirror-2 {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    margin: 20% auto 20% auto;
+}
+
+.stacker {
+    width: 200px;
+    height: 100px;
+    border:black 1px solid;
+    margin-left: 100px;
+}
+
+.stacker-2 {
+    margin-left: 200px;
+}
+
+.stacker-3 {
+    margin-left: 300px;
+}

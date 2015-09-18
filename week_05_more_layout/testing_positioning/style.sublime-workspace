@@ -1,0 +1,305 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"ali",
+				"vertical-align"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"li",
+				"list-style-type"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"fo",
+				"font-variant"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"d",
+				"text-decoration"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "en",
+		"selected_items":
+		[
+			[
+				"en",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"Package Control:Install Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib2,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+			" import urllib2,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+			"windows()",
+			"windows",
+			"aa",
+			"ll"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/damonsauve/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/damonsauve/GitHub/FEWD35-Homework/05_more_layout/fashion_blog/index.html",
+		"/Users/damonsauve/GitHub/FEWD35-Homework/week_2_css_basics/resume_exercise/css/style.css",
+		"/Users/damonsauve/GitHub/FEWD35-Homework/05_more_layout/testing_positioning/style.css",
+		"/Users/damonsauve/GitHub/FEWD35-Homework/week_2_css_basics/resume_exercise/index.html",
+		"/Users/damonsauve/GitHub/FEWD35-Homework/week_2_css_basics/resume_exercise/resume.html",
+		"/Users/damonsauve/git/sites/sfbikeexpo/www/wordpress/wp-config.php",
+		"/Users/damonsauve/GitHub/FEWD35-Homework/week_2_homework/resume_exercise/style.css",
+		"/Users/damonsauve/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/damonsauve/GitHub/FEWD35-Arun/week_02_layout/02_css_basics/resume_exercise/style.css",
+		"/Users/damonsauve/GitHub/FEWD35-Arun/week_02_layout/02_css_basics/resume_exercise/resume.html",
+		"/Users/damonsauve/GitHub/FEWD35-Arun/week_02_layout/02_css_basics/resume_exercise/index.html",
+		"/Users/damonsauve/GitHub/FEWD35-Arun/week_02_layout/02_css_basics/css_testing/style.css",
+		"/Users/damonsauve/GitHub/FEWD35-Arun/week_02_layout/02_css_basics/css_testing/index.html",
+		"/Users/damonsauve/GitHub/FEWD35-Arun/week_02_layout/02_css_basics/starter_files/index.html",
+		"/Users/damonsauve/GitHub/fewd/README.md",
+		"/Users/damonsauve/GitHub/fewd/index.html",
+		"/Users/damonsauve/Documents/Personal/Resumes/2015-job_search/js_practice/allanagrams.js",
+		"/Users/damonsauve/Documents/Personal/Resumes/2015-job_search/5-problems.php",
+		"/Users/damonsauve/Desktop/js_practice/1.html",
+		"/Users/damonsauve/git/sdc-product-demo/www/search/index.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"-",
+			"<span class=\"right-border\">",
+			"white"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"&mdash;",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "style.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 175.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
