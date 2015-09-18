@@ -1,0 +1,38 @@
+
+body {
+    padding-top: 70px;
+}
+
+.divider {
+    width: 100%;
+    border-top: #EEEEEE 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*
+    I copied the off canvas stuff from the Bootstrap example:
+    http://getbootstrap.com/examples/offcanvas/
+
+    1. Only show right sidebar when screen width > 767 pixels.
+*/
+@media screen and (max-width: 767px) {
+    .row-offcanvas {
+        position: relative;
+    }
+
+    .sidebar-offcanvas {
+        right: -50%; /* 6 columns */
+    }
+
+    .sidebar-offcanvas {
+        position: absolute;
+        top: 0;
+        width: 50%; /* 6 columns */
+    }
+}
