@@ -10,6 +10,11 @@
 </head>
 <body>
 
+<!--
+    Clone of the Bootstrap example:
+    http://getbootstrap.com/examples/offcanvas/
+ -->
+
 <div class="container">
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -33,24 +38,44 @@
         </div>
     </nav>
 
-    <div class="row row-offcanvas">
+<!--
+
+    This row includes the jumbotron, the headings below it, and the sidebar to
+    the right. With the sidebar, the row is 9 cols + 3 cols.  Without the
+    sidebar, it's 12 cols.
+
+ -->
+
+    <div class="row">
 
         <!--
-            This row defaults to 9 columns until small screen, then jumps to 12 columns for extra-small screen.
+
+            For screen sizes small and larger, this div is 9 columns wide.
+
+            For extra-small screens, this div is 12 columns wide.
 
         -->
 
         <div class="col-xs-12 col-sm-9">
+
             <div class="jumbotron">
                 <h1>Hello, world!</h1>
                 <p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
             </div>
-            <div class="row ">
 
-    <!--
-        At large screen size, the table is four columns. Below 1200 pixels,
-        the table drops to two columns, as set by extra-small screen class.
-    -->
+            <div class="row">
+
+            <!--
+
+                For large-size screens, this div is 3 columns wide.
+
+                For medium-size and smaller screens, this div is 2 columns wide.
+
+                As stated in the Bootstrap docs, extra columns wrap to a new line:
+
+                "If more than 12 columns are placed within a single row, each group of extra columns will, as one unit, wrap onto a new line."
+
+            -->
 
                 <div class="col-xs-6 col-lg-4">
                     <h2>Heading</h2>
@@ -82,13 +107,19 @@
                     <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                 </div>
-            </div>
-        </div>
+            </div> <!-- row -->
+
+        </div> <!-- col-xs-12 col-sm-9 -->
 
         <!--
-            Below 767 pixels, the media query hides the [to be completed....]
+
+            For screen sizes small and larger, this div is 3 columns wide.
+
+            For extra-small screens, the sidebar disappears, as set by the responsive helper class.
+
         -->
-        <div class="col-sm-3 sidebar-offcanvas">
+
+        <div class="hidden-xs col-sm-3">
             <div class="list-group">
                 <a href="#" class="list-group-item active">Link</a>
                 <a href="#" class="list-group-item">Link</a>
@@ -101,8 +132,9 @@
                 <a href="#" class="list-group-item">Link</a>
                 <a href="#" class="list-group-item">Link</a>
             </div>
-        </div>
-    </div>
+        </div> <!-- sidebar -->
+
+    </div> <!-- main row -->
 
     <div class="divider"></div>
 
@@ -115,6 +147,5 @@
 <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="app.js"></script>
-
 </body>
 </html>
