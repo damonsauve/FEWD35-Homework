@@ -79,12 +79,9 @@ function setScore(newScore) {
     } else {
 
         alert("Invalid score: " + newScore);
-
-        // Reset the placeholder text (Extra-Super Bonus).
-        //
-        document.getElementById("custom-score").value = "";
-        document.getElementById("custom-score").setAttribute("placeholder", "Set a custom score");
     }
+
+    resetPlaceholderText();
 }
 
 function validScore(num) {
@@ -103,5 +100,14 @@ function updateScore(newScore) {
 
     currentScore = newScore;
 }
+
+function resetPlaceholderText() {
+
+    // Reset the placeholder text (Extra-Super Bonus).
+    //
+    document.getElementById("custom-score").value = "";
+    document.getElementById("custom-score").setAttribute("placeholder", "Set a custom score");
+}
+
 
 
