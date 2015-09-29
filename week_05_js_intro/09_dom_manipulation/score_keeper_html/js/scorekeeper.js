@@ -22,30 +22,29 @@
 //
 var currentScore = 0;
 
+var scoreBoard = document.querySelector("#score");
+var placeholder = document.getElementById("custom-score");
+
 // Click event to increase score.
 //
-var increaseScore = document.querySelector("#increase-5");
-
-increaseScore.addEventListener(
+document.querySelector("#increase-5")
+    .addEventListener(
     "click",
     function() { changeScore(5); }
 );
 
 // Click event to decrease score.
 //
-var decreaseScore = document.querySelector("#decrease-5");
-
-decreaseScore.addEventListener(
+document.querySelector("#decrease-5")
+    .addEventListener(
     "click",
     function() { changeScore(-5); }
 );
 
 // Click event to set custom score.
 //
-var customScore = document.querySelector("#submit-custom-score");
-
-customScore.addEventListener("click", submitScore);
-
+document.querySelector("#submit-custom-score")
+    .addEventListener("click", submitScore);
 
 function changeScore(score) {
 
@@ -56,7 +55,7 @@ function submitScore() {
 
     // Get value of custom score.
     //
-    var customScore = document.getElementById("custom-score").value;
+    var customScore = placeholder.value;
 
     // Parse string for a number.
     //
@@ -71,8 +70,9 @@ function setScore(newScore) {
 
         // "innerText" not supported by Firefox.
         // document.querySelector("#score").innerText = newScore + " Points";
+        // innerHTML works!
 
-        document.querySelector("#score").textContent = newScore + " Points";
+        scoreBoard.textContent = newScore + " Points";
 
         updateScore(newScore);
 
@@ -105,8 +105,8 @@ function resetPlaceholderText() {
 
     // Reset the placeholder text (Extra-Super Bonus).
     //
-    document.getElementById("custom-score").value = "";
-    document.getElementById("custom-score").setAttribute("placeholder", "Set a custom score");
+    placeholder.value = "";
+    placeholder.setAttribute("placeholder", "Set a custom score");
 }
 
 
