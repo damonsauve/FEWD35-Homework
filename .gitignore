@@ -8,6 +8,9 @@ week_04_advanced_layout/shakespeares_plays
 week_05_js_intro/08_js_basics/js_testing
 week_05_js_intro/08_js_basics/Memory-master/
 week_05_js_intro/09_dom_manipulation/intro_to_DOM
+week_06_jquery_intro/10_jquery_intro/jQuery Testing
+week_06_jquery_intro/10_jquery_intro/shakespeares_plays
+
 
 # reset cache:
 # git rm -r --cached .
