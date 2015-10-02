@@ -10,7 +10,8 @@ week_05_js_intro/08_js_basics/Memory-master/
 week_05_js_intro/09_dom_manipulation/intro_to_DOM
 week_06_jquery_intro/10_jquery_intro/jQuery Testing
 week_06_jquery_intro/10_jquery_intro/shakespeares_plays
-
+week_06_jquery_intro/11_jquery_review/Animation Testing
+week_06_jquery_intro/11_jquery_review/gettysburg_address
 
 # reset cache:
 # git rm -r --cached .
