@@ -11,35 +11,40 @@ $(document).ready(function() {
 
     var ex = 'X';
     var oh = 'O';
-    var currentPlayer = ex;
 
-    // var rows = {};
+    var currentPlayer = ex;
 
     var row1 = [];
     var row2 = [];
     var row3 = [];
 
+    var gameOver = false;
+
     // Click event.
     //
     $(document).on("click", ".square", function () {
 
-        if (checkTotalTurns()) {
+        if (isGameOver() || isMaxTurns()) {
+
+            alert('Game over!');
+
+        } else {
 
             var squareValue = $(this).html();
 
             if (isEmptySquare(squareValue)) {
 
-                console.log('currentPlayer -> ' + currentPlayer);
+                // console.log('currentPlayer -> ' + currentPlayer);
 
                 var rowId = $(this).parent().attr("id");
 
-                console.log('rowId -> ' + rowId);
+                // console.log('rowId -> ' + rowId);
 
                 // Get ID value.
                 //
                 var squareID = this.id;
 
-                console.log('squareID -> ' + squareID);
+                // console.log('squareID -> ' + squareID);
 
                 // decrement row/col values to match array indices.
                 //
@@ -48,6 +53,8 @@ $(document).ready(function() {
                 $(this).html(currentPlayer);
 
                 if (checkForWin()) {
+
+                    gameOver = true;
 
                     alert(currentPlayer + ' wins the game!');
 
@@ -64,17 +71,17 @@ $(document).ready(function() {
 
                 alert("Select an empty square!");
             }
-
-        } else {
-
-            alert('Game over!');
         }
 
     });
 
-    function checkTotalTurns() {
+    function isGameOver() {
+        return gameOver;
+    }
 
-        if (totalTurns >= maxTurns) {
+    function isMaxTurns() {
+
+        if (totalTurns < maxTurns) {
             return false;
         }
         return true;
@@ -99,8 +106,8 @@ $(document).ready(function() {
 
     function setSquare(row, col) {
 
-        console.log("setSquare row: " + row);
-        console.log("setSquare col: " + col);
+        // console.log("setSquare row: " + row);
+        // console.log("setSquare col: " + col);
 
         if (row === 0) {
 
