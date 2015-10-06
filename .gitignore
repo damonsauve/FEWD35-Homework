@@ -5,6 +5,7 @@
 
 # ignore these dirs.
 #
+template/
 week_02_css_basics/grid_sytem
 week_03_more_layout/testing_positioning
 week_04_advanced_layout/jumbotron_narrow
