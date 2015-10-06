@@ -1,3 +1,8 @@
+# sublime files
+#
+*.sublime-project
+*.sublime-workspace
+
 # ignore these dirs.
 #
 week_02_css_basics/grid_sytem
