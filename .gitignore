@@ -18,6 +18,7 @@ week_06_jquery_intro/10_jquery_intro/jQuery Testing
 week_06_jquery_intro/10_jquery_intro/shakespeares_plays
 week_06_jquery_intro/11_jquery_review/Animation Testing
 week_06_jquery_intro/11_jquery_review/gettysburg_address
+week_07_advanced_css_and_jquery/12_jquery_bootstrap/testing
 
 # reset cache:
 # git rm -r --cached .
