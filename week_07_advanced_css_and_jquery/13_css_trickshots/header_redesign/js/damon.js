@@ -98,7 +98,7 @@ function checkSize() {
            - add Bootstrap form control
            - reduce input size to small
          */
-        var location = $(".header-search-input[name|='location']")
+        var location = $(".header-search-input[name|='location']");
         location.parent().removeClass('col-sm-5');
         location.parent().addClass('col-xs-12');
         location.addClass('form-control input-sm');
@@ -110,7 +110,7 @@ function checkSize() {
             - reduce button size via padding
             - add top margin padding
         */
-        var turquoise = $('.fmf-ellipse-turquoise-button')
+        var turquoise = $('.fmf-ellipse-turquoise-button');
         turquoise.parent().removeClass('txt-center');
         turquoise.parent().removeClass('col-sm-2');
         turquoise.parent().addClass('col-xs-12');
