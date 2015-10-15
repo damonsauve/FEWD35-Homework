@@ -1,7 +1,7 @@
 # sublime files
 #
-*.sublime-project
-*.sublime-workspace
+**/*.sublime-project
+**/*.sublime-workspace
 
 # ignore these dirs.
 #
