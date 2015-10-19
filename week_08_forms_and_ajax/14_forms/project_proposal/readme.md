@@ -12,8 +12,8 @@ For this project, I would like to rewrite the HTML templates using CSS and Boots
 The page types to be redesigned include:
 
 - cover (http://www.oysterboyreview.org/issue/21/)
-- content list (http://www.oysterboyreview.org/issue/21/art/index-art.html)
-- single content (http://www.oysterboyreview.org/issue/21/reviews/CarsonR-Floyd-Miller.html)
+- content list (http://www.oysterboyreview.org/issue/21/essays/index-essays.html)
+- single content (http://www.oysterboyreview.org/issue/21/reviews/GilmoreB-Heron.html)
 - art section with pop-up (http://www.oysterboyreview.org/issue/21/art/index-art.html)
 
 Pages are composed of six template files:
