@@ -16,8 +16,17 @@ The page types to be redesigned include:
 - single content (http://www.oysterboyreview.org/issue/21/reviews/CarsonR-Floyd-Miller.html)
 - art section with pop-up (http://www.oysterboyreview.org/issue/21/art/index-art.html)
 
+Pages are composed of six template files:
+
+- meta.html
+- header.html
+- subheader.html
+- body.html
+- subfooter.html
+- footer.html
+
+I have included the current template files in this repo.
+
 Bringing the online version of my magazine into the 21st century will bring much needed readability to the website, pleasing both reader and contributor.
 
 --Damon
-
-
