@@ -11,3 +11,8 @@ h1 {
 #my-form {
     padding: 25px;
 }
+
+#messages {
+    color: red;
+    font-weight: bold;
+}

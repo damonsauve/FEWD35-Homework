@@ -20,6 +20,9 @@ template/
 **/gettysburg_address
 **/testing
 **/form_validation
+**/form_validation
+**/ajax_testing
+**/user_manager_app
 
 
 # reset cache:
