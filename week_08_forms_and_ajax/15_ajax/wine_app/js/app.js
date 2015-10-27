@@ -24,7 +24,7 @@ $(document).ready(function() {
             url: "http://daretodiscover.herokuapp.com/wines/",
             success: function(data) {
 
-                for (var i = 0; i <= data.length; i++) {
+                for (var i = 0; i < data.length; i++) {
 
                     for (var j in data[i]) {
                         console.log( j + ': ' + data[i][j]);
@@ -69,7 +69,7 @@ $(document).ready(function() {
             if (wineData[key] === '') {
                 // alert('Please fill in all fields!');
 
-                $( "#messages" ).text('ERROR: ' + key + ' field is empty');
+                $("#messages").text('ERROR: ' + key + ' field is empty');
                 return false;
             }
         }
@@ -82,9 +82,14 @@ $(document).ready(function() {
 
                 // console.log(data);
 
-                for ( var key in data ) {
+                for (var key in data) {
                     console.log(key + ': ' + data[key]);
                 }
+
+                // Reset form and clear any error messages.
+                //
+                $("form")[0].reset();
+                $("#messages").text();
             },
             failure: function() {
                 alert("Error!");
