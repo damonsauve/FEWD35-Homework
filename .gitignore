@@ -23,7 +23,9 @@ template/
 **/form_validation
 **/ajax_testing
 **/user_manager_app
-
+**/handlebars_testing
+**/users_ajax
+**/wine_manager_html
 
 # reset cache:
 # git rm -r --cached .
