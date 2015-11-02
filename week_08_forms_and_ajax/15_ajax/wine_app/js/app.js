@@ -27,7 +27,7 @@ $(document).ready(function() {
                 for (var i = 0; i < data.length; i++) {
 
                     for (var j in data[i]) {
-                        console.log( j + ': ' + data[i][j]);
+                        console.log(j + ': ' + data[i][j]);
                     }
                     console.log('*****');
                 }
