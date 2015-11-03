@@ -17,15 +17,6 @@
     display: none;
 }
 
-.runtime,
-.rating,
-.genre,
-.released,
-.ratings,
-.votes {
-    display: inline;
-}
-
 .error {
     color: red;
 }
