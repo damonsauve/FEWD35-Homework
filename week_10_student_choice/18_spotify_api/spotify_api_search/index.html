@@ -37,10 +37,7 @@
         <script id="search-header-template" type="text/x-handlebars-template">
             <div id="search-head" class="col-md-offset-2 col-md-10">
                 <h3>Search Results</h3>
-
-                {{#if total_results}}
-                <p>Showing {{start}} to {{stop}} of {{total_results}} total search results.</p>
-                {{/if}}
+                <p>Showing {{limit}} of {{total_results}} total search results.</p>
             </div>
         </script>
     </div>
